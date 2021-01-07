@@ -1,5 +1,4 @@
-<?php
-?>
+<?php ?>
 <!doctype html>
 <html lang="en" ng-app="">
 <head>
