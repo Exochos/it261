@@ -23,7 +23,7 @@
         <div class='left'></div>
         <div class='middle'>
 	<?php 
-	include "header.php";
+	include "php/header.php";
 	head();
 	?>
 	<p>Info PHP is here with error reporting set to on,
