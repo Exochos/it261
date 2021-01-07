@@ -33,6 +33,7 @@
 	<img src="images/test.png" width="50%">
 	</p>
 	<span style="height:30%"></span>
+    
         <footer style="font-family: 'Audiowide', cursive;">Jeremy Ward	&copy;2021 </footer>
         </div>
         <div class='right'></div>
