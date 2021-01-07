@@ -1,6 +1,6 @@
 {
     "email": {
-        "from": "github-hook@example.com",
+        "from": "github-update@home.org",
         "to": "exochos@gmail.com"
     },
     "endpoints": [
