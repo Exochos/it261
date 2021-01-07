@@ -1,1 +1,1 @@
-cd /var/www/html/it261/; sudo git pull master origin
+cd /var/www/html/it261/; sudo git pull
