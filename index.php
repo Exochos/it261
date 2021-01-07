@@ -19,7 +19,7 @@
 <body style="width:100%">
     <!--Flexbox container-->
     <div class='container'>
-        <div class='left'></div>
+        <div class='left'> </div>
         <div class='middle'>
 	<?php 
 	include "php/header.php";
@@ -33,7 +33,7 @@
 	<img src="images/test.png" width="50%">
 	</p>
 	<span style="height:30%"></span>
-    
+
         <footer style="font-family: 'Audiowide', cursive;">Jeremy Ward	&copy;2021 </footer>
         </div>
         <div class='right'></div>
