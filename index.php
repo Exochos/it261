@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title></title>
+    <title>IT261 - Page</title>
     <meta charset="utf-8">
     <!-- Viewport so we can change depending on device size -->
     <meta name='viewport' content='width=device-width,initial-scale=1,user-scalable=no'>
