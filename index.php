@@ -22,8 +22,7 @@
         <div class='left'> </div>
         <div class='middle'>
 	<?php 
-	include "php/header.php";
-	head();
+    	include "php/header.php"; head();
 	?>
 	<p>Info PHP is here with error reporting set to on,
 		<a href="http://35.226.47.22/it261/homework/info.php">http://35.226.47.22/it261/homework/info.php</a><br>
