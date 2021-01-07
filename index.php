@@ -22,14 +22,19 @@
     <div class='container'>
         <div class='left'></div>
         <div class='middle'>
-        <span style="height:40%"></span>
+	<?php 
+	include "header.php";
+	head();
+	?>
 	<p>Info PHP is here with error reporting set to on,
 		<a href="http://35.226.47.22/it261/homework/info.php">http://35.226.47.22/it261/homework/info.php</a><br>
+	<img src="images/error.png" width="50%"><br>
 	Test.php is here so you can see that error reporting is on:
-		<a href="http://35.226.47.22/it261/homework/test.php">http://35.226.47.22/it261/homework/test.php</a>
+	<a href="http://35.226.47.22/it261/homework/test.php">http://35.226.47.22/it261/homework/test.php</a><br>
+	<img src="images/test.png" width="50%">
 	</p>
-        <span style="height:50%"></span>
-            <footer style="font-family: 'Audiowide', cursive;">Jeremy Ward	&copy;2021 </footer>
+	<span style="height:30%"></span>
+        <footer style="font-family: 'Audiowide', cursive;">Jeremy Ward	&copy;2021 </footer>
         </div>
         <div class='right'></div>
     </div>
