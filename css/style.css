@@ -1,7 +1,9 @@
-html, body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: white;
+    font-family: 'Audiowide', cursive;
   }  
 .container {
     position: absolute;
@@ -10,16 +12,17 @@ html, body {
     height: 100%;
     margin: none;
     padding: 0;
+    background-color: yellow;
   }
 .left {
     display: flex;
-    background-color: black;
     width: 30%;
     height: 100%;
+    background-color: red;
   }
 .right {
     display: flex;
-    background-color: black;
+    background-color: green;
     width: 30%;
     height: 100%;
   }
@@ -28,9 +31,23 @@ html, body {
     background-repeat: no-repeat;
     flex-direction: column;
     display: flex;
-    background-color: black;
+    background-color: pink;
     width: 60%;
     height: 100%;
-    color: white;
+    color: black;
     align-items: center;
   }
+header {
+  position: relative;
+  background-color:cornflowerblue;
+  width: 100%;
+}
+.nav {
+  text-align: right;
+  position: relative;
+  border-color: black;
+  border-width: 1em;
+}
+.footer {
+  font-family: 'Audiowide', cursive;
+}
