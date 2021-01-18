@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     background-color: white;
-    font-family: 'Audiowide', cursive;
+    font-weight: lighter;
   }  
 .container {
     position: absolute;
@@ -12,30 +12,31 @@
     height: 100%;
     margin: none;
     padding: 0;
-    background-color: yellow;
   }
 .left {
     display: flex;
-    width: 30%;
+    width: 20%;
     height: 100%;
-    background-color: red;
+    background-color: left;
   }
 .right {
     display: flex;
-    background-color: green;
-    width: 30%;
+    background-color: white;
+    width: 20%;
     height: 100%;
   }
   .middle {
     background-size: 100%,100%;
+    padding: 10px;
+    margin: 10px;
     background-repeat: no-repeat;
-    flex-direction: column;
     display: flex;
-    background-color: pink;
-    width: 60%;
+    background-color: white;
+    width: 80%;
     height: 100%;
     color: black;
     align-items: center;
+    font-family: Helvetica;
   }
 header {
   position: relative;
@@ -50,4 +51,7 @@ header {
 }
 .footer {
   font-family: 'Audiowide', cursive;
+}
+h1 {
+  text-shadow: 2px 2px 5px grey;
 }
