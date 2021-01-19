@@ -25,8 +25,8 @@
                 <h1 style="font-family: 'Audiowide', cursive;">Jeremy's <sub>Designs</sub></h1>
                 <nav style="text-align: right;font-family: 'Audiowide', cursive;margin-bottom: 1em;" class='nav'>
                     <a link href="#index.html">Home</a>
-                    <a link href="">Other</a>
-                    <a link href="">More</a>
+                    <a link href="#index.html">Other</a>
+                    <a link href="#index.html">More</a>
                 </nav>
             </header>
             
@@ -44,27 +44,20 @@
                 <div style="flex-direction: column-reverse;border-style: solid;border-color:cornflowerblue;border-radius: 25%;width:40%;">
                 <UL style="margin-left: 2em;">
                     <h2>List of Assignments:</h2>
-                    <li><a href="">Week 2 Class Exercises - Jan 18th</a></li>
-                    <li>
-                        <a href="">MAMP - HW1 - Jan 18th</a>
-                    </li>
-                    <li>
-                        Portal Page - HW2 - Jan 18th
-                    </li>                    
-                    <li>
-                        PHP Fundamentals - Jan 25th
-                    </li>
-
-                    <li>
-                        Using a Switch - HW3 - Jan 25th    
-                    </li>
+                    <li><a href="">MAMP</a></li>
+                    <li><a href="index.php">Portal Page</a></li>                    
+                    <li><a href="">PHP Fundamentals</a></li>
+                    <li><a href="">Using a Switch</a></li>
                 </UL><br>
             </div>
+            <span style="height: 20px;">&nbsp;</span>
                 <aside style="height: 20%;">
-                    <h2>Weekly class exercise code list</h2>
-                    <li>
-                        Week 3 Class Exercises - Jan 25th
-                    </li>
+                    <h2>Weekly class Exercises</h2>
+                    <li><a href="">Week 2 Class Exercises</a></li>
+                    <li><a href="">Week 3 Class Exercises</a></li>
+                    <li><a href="">Week 4 Class Exercises</a></li>
+                    <li><a href="">Week 5 Class Exercises</a></li>
+                    <li><a href="">Week 6 Class Exercises</a></li>
                 </aside>
             </main>
 
