@@ -53,14 +53,15 @@
             <span style="height: 20px;">&nbsp;</span>
                 <aside style="height: 20%;">
                     <h2>Weekly class Exercises</h2>
-                    <li><a href="">Week 2 Class Exercises</a></li>
+                    <li><a href="https://docs.google.com/document/d/1OygAPim_GKQCoMrjDjWs0qm5HNj-ZPv9RA6R5HpvnHQ/edit?usp=sharing">Week 2 Class Exercises</a></li>
                     <li><a href="">Week 3 Class Exercises</a></li>
                     <li><a href="">Week 4 Class Exercises</a></li>
                     <li><a href="">Week 5 Class Exercises</a></li>
                     <li><a href="">Week 6 Class Exercises</a></li>
+                    <li><a href="">Week 7 Class Exercises</a></li>
+                    <li><a href="">Week 8 Class Exercises</a></li>
                 </aside>
             </main>
-
             <span style="height:20%"></span>
             <footer style="font-family: 'Audiowide', cursive;">
                 Jeremy Ward	&copy; 2021<br>
