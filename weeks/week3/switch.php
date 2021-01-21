@@ -1,6 +1,6 @@
 <?php
 // Switch //
-$weekday = array();
+/* $weekday = array();
 $weekday['1'] = 'Sunday';
 $weekday['2'] = 'Monday';
 $weekday['3'] = 'Tuesday';
@@ -8,16 +8,16 @@ $weekday['4'] = 'Wednesday';
 $weekday['5'] = 'Thursday';
 $weekday['6'] = 'Friday';
 $weekday['7'] = 'Saturday';
-$day2 = $weekday[rand(1,7)];
+$day2 = $weekday[rand(1,7)]; */
 
-//$day = date("l");
+$day = date("l");
 
-switch ($day2) {
+switch ($day) {
     case "Monday":
         $pic = 'doggo1.jpg';
         $alt = 'Havanese';
         $color = 'yellow';
-        $p = 'Havanese is the national dog of Cuba. The Havanese is small in size and sturdy in structure with a tail carried over its back and ears that drop and fold. The coat is abundant, long, and silky, and comes in all colors. The Havanese has a spirited personality and a curious disposition, and is notable for its springy gait, a characteristic that distinguishes the breed from all others.[3] The Havanese is considered an ideal family pet and a true companion dog.[1] They are highly adaptable to almost any environment. Because of their strong social needs, Havanese will not thrive in an environment where they are isolated for several hours each day.';
+        $p = 'Havanese is the national dog of Cuba. The Havanese is small in size and sturdy in structure with a tail carried over its back and ears that drop and fold. The coat is abundant, long, and silky, and comes in all colors. The Havanese has a spirited personality and a curious disposition, and is notable for its springy gait, a characteristic that distinguishes the breed from all others. The Havanese is considered an ideal family pet and a true companion dog. They are highly adaptable to almost any environment. Because of their strong social needs, Havanese will not thrive in an environment where they are isolated for several hours each day.';
         break;
     case "Tuesday":
         $pic = 'doggo2.jpg';
@@ -89,17 +89,32 @@ img {
     font-size: 36px;
     text-shadow: 2px 2px 4px #d3d3d3;
 }
+.left {
+    position: relative;
+    left: 200px;
+    height: 800px;
+}
+.middle {
+    position: relative;
+    left: 400px;
+    height: 800px;
+}
 </style>
 </head>
-<body>
 
-<h2 class="header">Dog of the day for: <?php echo $day2 ?></h2>
+<body>
+<span class="left">&nbsp;</span>
+<span class="middle">
+<h2 class="header">Dog of the day for: <?php echo $day ?></h2>
 
 <div class="card" style="width:600px;background-color: <?php echo $color ?>;">
   <img src="<?php echo $pic ?>" alt="" style="width:100%">
   <div class="container">
     <h2><b><?php echo $alt ?></b></h2> 
     <p><?php echo $p ?></p> 
+    Source: Wiki
+    <a href="http://validator.w3.org/check/referer" rel="nofollow" title="Validate as HTML5">HTML5</a>
+                <a href="http://jigsaw.w3.org/css-validator/validator?uri=<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>" rel="nofollow" title="Validate as CSS3">CSS3</a>
   </div>
 </div>
 
