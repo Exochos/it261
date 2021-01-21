@@ -25,7 +25,7 @@
                 <h1 style="font-family: 'Audiowide', cursive;">Jeremy's <sub>Portal Page</sub></h1>
                 <nav style="text-align: right;font-family: 'Audiowide', cursive;margin-bottom: 1em; word-spacing: 10px;" class='nav'>
                     <a link href="#index.html">Home</a>
-                    <a link href="weeks/week3/switch.php">Switch-3</a>
+                    <a link href="/it261/weeks/week3/switch.php">Switch-3</a>
                     <a link href="#index.html">Troubleshoot 4</a>
                     <a link href="#index.html">Calculator</a>
                     <a link href="#index.html">Email</a>
