@@ -25,8 +25,9 @@
                 <h1 style="font-family: 'Audiowide', cursive;">Jeremy's <sub>Designs</sub></h1>
                 <nav style="text-align: right;font-family: 'Audiowide', cursive;margin-bottom: 1em;" class='nav'>
                     <a link href="#index.html">Home</a>
-                    <a link href="#index.html">Other</a>
-                    <a link href="#index.html">More</a>
+                    <a link href="#index.html">Switch-3</a>
+                    <a link href="#index.html">Calculator</a>
+                    <a link href="#index.html">email</a>
                 </nav>
             </header>
             
